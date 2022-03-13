@@ -1,0 +1,9 @@
+[package]
+name = "ffi_stub"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+derive_builder = "*"
+syn = {version = "*", features = ["full"]}
+lang-c= "*" 
